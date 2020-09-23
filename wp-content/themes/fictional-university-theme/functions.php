@@ -64,7 +64,7 @@
             wp_enqueue_script('main-university-javascript', 'http://localhost:3000/bundled.js', NULL, '1.0', true);
         } else {
             wp_enqueue_script('our-vendors-js', get_theme_file_uri('/bundled-assets/vendors~scripts.0b29b683dfc940460bcd.js'), NULL, '1.0', true);
-            wp_enqueue_script('main-univiersity-javascript', get_theme_file_uri('/bundled-assets/scripts.b3fe530291903f4cd85f.js'), NULL, '1.0', true);
+            wp_enqueue_script('main-university-javascript', get_theme_file_uri('/bundled-assets/scripts.b3fe530291903f4cd85f.js'), NULL, '1.0', true);
             wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.b3fe530291903f4cd85f.css'));
         }
 
