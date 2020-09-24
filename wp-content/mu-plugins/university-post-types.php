@@ -59,20 +59,17 @@ function university_post_types(){
             'menu_icon' => 'dashicons-welcome-learn-more'
         ));
 
-        // HomepageSlideshow Post Type
+        // Homepage Slideshow Post Type
         register_post_type('homepageSlideshow', array(
             'show_in_rest' => true,
             'supports' => array('title', 'editor'),
-            'rewrite' => array(
-                'slug' => 'HomepageSlideshows'
-            ),
             'public' => true,
             'labels' => array(
-                'name' => 'HomepageSlideshows',
-                'add_new_item' => 'Add New HomepageSlideshow',
-                'edit_item' => 'Edit HomepageSlideshow',
-                'all_items' => 'All HomepageSlideshows',
-                'singlular_name' => 'HomepageSlideshow'
+                'name' => 'Homepage Slideshow',
+                'add_new_item' => 'Add New Homepage Slideshow',
+                'edit_item' => 'Edit Homepage Slideshow',
+                'all_items' => 'All Homepage Slideshows',
+                'singlular_name' => 'Homepage Slideshow'
             ),
             'menu_icon' => 'dashicons-slides'
         ));
