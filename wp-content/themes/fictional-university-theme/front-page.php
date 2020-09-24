@@ -88,14 +88,14 @@
             
 
             $homepageSliderPosts->the_post(); 
-            $image = get_field('hp_slideshow_background_image'); ?>
+            $image = get_field('homepage_slide_image'); ?>
            
             <div class="hero-slider__slide" style="background-image: url(<?php echo $image['url']; ?>);">
               <div class="hero-slider__interior container">
                 <div class="hero-slider__overlay">
-                  <h2 class="headline headline--medium t-center"><?php echo get_field('hp_slideshow_title'); ?></h2>
-                  <p class="t-center"><?php echo get_field('hp_slideshow_subtitle'); ?></p>
-                  <p class="t-center no-margin"><a href="<?php echo get_field('hp_slideshow_link_value') ?>" class="btn btn--blue"><?php echo get_field('hp_slideshow_link_text'); ?></a></p>
+                  <h2 class="headline headline--medium t-center"><?php echo get_field('homepage_slide_title'); ?></h2>
+                  <p class="t-center"><?php echo get_field('homepage_slide_subtitle'); ?></p>
+                  <p class="t-center no-margin"><a href="<?php echo get_field('homepage_slide_link_value') ?>" class="btn btn--blue"><?php echo get_field('homepage_slide_link_text'); ?></a></p>
                 </div>
               </div>
             </div>   
