@@ -75,7 +75,6 @@
     </div>
 
     <div class="hero-slider">
-      <div<div class="hero-slider">
       <div data-glide-el="track" class="glide__track">
         <div class="glide__slides">              
         <?php 
