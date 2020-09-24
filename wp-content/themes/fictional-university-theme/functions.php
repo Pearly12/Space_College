@@ -18,12 +18,6 @@
             }
         ));  
     }
-        // add more 
-        // register_rest_field('post', 'somethingElse', array(
-        //     'get_callback' => function() {
-        //         return whateverYouWant;
-        //     }
-        // ));
 
 
     function pageBanner($args = NULL){
